@@ -3,10 +3,15 @@
 	<head>
 		<link rel="stylesheet" href=./CSS/stylesheet.css>
 		<title> Journal DNL </title>
+    <script charset="utf-8" src="./script.js" defer></script>
 	</head>
 	<body>
 		<div class="top">
 			<h1> DaVinci Files </h1>
+      <select name="language" id="language" class="language">
+        <option value="french">French</option>
+        <option value="english">English</option>
+      </select>
 		</div>
 		<div class="container">
 			<button onclick="window.location.href='./articles_1G3/article_1.html'">Journal 1G3</button>
@@ -14,7 +19,7 @@
 		</div>
 		<div class="container">
 		<div>
-			<h2>Sommaire 1G3</h2>
+    <h2 id="sommaire1">Sommaire 1G3</h2>
 			<ol>
 				<li>Article 1</li>
 				<li>Article 2</li>
@@ -27,6 +32,7 @@
 				<li>Article 1</li>
 				<li>Article 2</li>
 				<li>Article 3</li>
+      </ol>
 		</div>
 		</div>
 	</body>
