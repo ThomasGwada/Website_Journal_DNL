@@ -1,8 +1,10 @@
 const jsonFR = {
-  "sommaire1": "Sommaire 1G3"
+  "sommaire1": "Sommaire 1G3",
+  "sommaire2": "Sommaire 1G4"
 }
 const jsonEN = {
-  "sommaire1": "1G3's Table of content"
+  "sommaire1": "1G3's Table of content",
+  "sommaire2": "1G4's Table of content"
 }
 
 document.querySelector('.language').addEventListener("change",function(){
