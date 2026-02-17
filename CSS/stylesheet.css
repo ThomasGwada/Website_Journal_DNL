@@ -33,9 +33,9 @@ button:hover {
 }
 .top {
  overflow: hidden;
+ text-align: center;
  background-color: blue;
- justify-content: space-evenly;
- align-items: center;
- display: flex;
  border-radius: 25px;
+ display: grid;
+ grid-template-colums:3fr 1fr;
 }
