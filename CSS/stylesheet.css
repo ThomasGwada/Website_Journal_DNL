@@ -37,5 +37,19 @@ button:hover {
  background-color: blue;
  border-radius: 25px;
  display: grid;
- grid-template-colums:3fr 1fr;
+ grid-template-columns:10fr 1fr;
+}
+.center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.language {
+ font-size: 38px;
+}
+.drapeau_france {
+  background-image: url(../images/drapeau_france.jpg);
+}
+.drapeau_anglais{
+  background-image: url(../images/drapeau_anglais.jpg);
 }

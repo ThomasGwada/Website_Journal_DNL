@@ -18,17 +18,24 @@ const jsonEN = {
   "article4_2": "Article 2 (english)",
   "article4_3": "Article 3 (english)",
 }
+let selector = document.getElementById("language")
 
 document.querySelector('.language').addEventListener("change",function(){
   if (this.value == "french"){
     for (let key in jsonFR){
       let element = "." + key
       document.querySelector(element).textContent = jsonFR[key]
+      console.log("la france")
+      selector.classList.add("drapeau_france")
+      selector.classList.remove("drapeau_anglais")
     }
   } else if (this.value == "english") {
    for (let  key in jsonEN){
       let element = "." + key
       document.querySelector(element).textContent = jsonEN[key]
+      console.log("anglais")
+      selector.classList.add("drapeau_anglais")
+      selector.classList.remove("drapeau_france")
     }
   }
 })
