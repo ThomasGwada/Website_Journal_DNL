@@ -4,9 +4,6 @@ const jsonFR = {
   "article3_1": "Article 1",
   "article3_2": "Article 2",
   "article3_3": "Article 3",
-  "article4_1": "Article 1",
-  "article4_2": "Article 2",
-  "article4_3": "Article 3",
 }
 const jsonEN = {
   "sommaire1": "1G3's Table of content :",
@@ -14,9 +11,6 @@ const jsonEN = {
   "article3_1": "Article 1 (english)",
   "article3_2": "Article 2 (english)",
   "article3_3": "Article 3 (english)",
-  "article4_1": "Article 1 (english)",
-  "article4_2": "Article 2 (english)",
-  "article4_3": "Article 3 (english)",
 }
 let selector = document.getElementById("language")
 

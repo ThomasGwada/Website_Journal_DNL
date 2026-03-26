@@ -1,5 +1,26 @@
 body {
- background-color: red;
+	padding: 20px;
+	font-family: "Courier New", monospace;
+	background-color: #f8fbff;
+
+	background-image:
+	linear-gradient(#dfe6f0 1px, transparent 1px),
+	linear-gradient(90deg, #dfe6f0 1px, transparent 1px);
+
+	background-size: 40px 40px;
+	text-align: center;
+}
+
+.main_title {
+	text-align: center;
+	font-size: 40px;
+	color: #1a237e;
+	border-bottom: 4px solid #1a237e;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+table {
+  margin: auto; 
 }
 h1 {
  font-family: arial;
@@ -31,14 +52,6 @@ button:hover {
  cursor:pointer;
  background-color: #00002F;
 }
-.top {
- overflow: hidden;
- text-align: center;
- background-color: blue;
- border-radius: 25px;
- display: grid;
- grid-template-columns:10fr 1fr;
-}
 .center {
  display: flex;
  justify-content: center;
@@ -49,7 +62,9 @@ button:hover {
 }
 .drapeau_france {
   background-image: url(../images/drapeau_france.jpg);
+  background-size: cover;
 }
 .drapeau_anglais{
   background-image: url(../images/drapeau_anglais.jpg);
+  background-size:cover;
 }
