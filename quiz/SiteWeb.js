@@ -15,13 +15,13 @@ function messageFinal() {
 	let message = "";
 
 	if (score === 5) {
-		message = "Excellent ! Tu as fait un sans-faute !";
+		message = "🥳";
 	} 
 	else if (score >= 3) {
-		message = "Bravo ! Bon travail, tu maîtrises bien le sujet.";
+		message = "😁";
 	} 
 	else if (score >= 1) {
-		message = "Pas mal ! Tu peux encore t'améliorer.";
+		message = "😐";
 	} 
 	else {
 		message = "SKILL ISSUE";
@@ -97,21 +97,51 @@ function changeLanguage() {
     let lang = document.getElementById("language").value;
 
     if(lang === "en"){
-        document.getElementById("quiztitle").textContent = "Dark Souls II Quiz";
-        document.getElementById("question1").textContent = "Q1: What is the name of the kingdom where Dark Souls II takes place?";
-        document.getElementById("question2").textContent = "Q2: Which stat affects item usage speed and rolls?";
-        document.getElementById("question3").textContent = "Q3: Which boss is found in Heide's Tower of Flame?";
-        document.getElementById("question4").textContent = "Q4: Who is the main boss of the Iron King DLC castle?";
-        document.getElementById("question5").textContent = "Q5: Who is Nashandra in the game?";
+        document.getElementById("quiztitle").textContent = "Quiz Time !";
+        document.getElementById("question1").textContent = "Q1: Which 2D geometric shape has the largest area for a given perimeter?";
+        document.getElementById("question2").textContent = "Q2: What is Bernoulli's inequality?";
+        document.getElementById("question3").textContent = "Q3: Who was the first mathematician to use the symbol ‘>’?";
+        document.getElementById("question4").textContent = "Q4: What index is used to measure wealth inequality within a population?";
+        document.getElementById("question5").textContent = "Q5: How many people in the world don't eat enough each day?";
+		document.getElementById("rep1").textContent = "The square";
+		document.getElementById("rep2").textContent = "The circle";
+		document.getElementById("rep3").textContent = "The prism";
+		document.getElementById("rep4").textContent = "For all x ≥ −1 and n a natural number, (1+x)n ≥ 1+nx";
+		document.getElementById("rep5").textContent = "For all x = −1 and n a natural number, (1+x)n = 1+nx";
+		document.getElementById("rep6").textContent = "1+1=1";
+		document.getElementById("rep7").textContent = "Pythagoras";
+		document.getElementById("rep8").textContent = "Thomas Harriot";
+		document.getElementById("rep9").textContent = "Erwin Schrödinger";
+		document.getElementById("rep10").textContent = "Dice's Index";
+		document.getElementById("rep11").textContent = "The Simpson Index";
+		document.getElementById("rep12").textContent = "The Gini coefficient";
+		document.getElementById("rep13").textContent = "57.3";
+		document.getElementById("rep14").textContent = "12 x 10^45";
+		document.getElementById("rep15").textContent = "783 millions";
         document.getElementById("finish").textContent = "Finish";
         document.getElementById("restart").textContent = "Restart";
     } else {
-        document.getElementById("quiztitle").textContent = "Quiz Dark Souls II";
-        document.getElementById("question1").textContent = "Q1 : Comment s’appelle le royaume où se déroule Dark Souls II ?";
-        document.getElementById("question2").textContent = "Q2 : Quelle statistique influence la vitesse d’utilisation des objets et les roulades ?";
-        document.getElementById("question3").textContent = "Q3 : Quel boss se trouve dans la zone Heide’s Tower of Flame ?";
-        document.getElementById("question4").textContent = "Q4 : Qui est le boss principal du Château de Fer dans le DLC Crown of the Old Iron King ?";
-        document.getElementById("question5").textContent = "Q5 : Qui est Nashandra dans le jeu ?";
+        document.getElementById("quiztitle").textContent = "C'est l'heure du quiz !";
+        document.getElementById("question1").textContent = "Q1 : Quelle forme géométrique en 2d possède la plus grande aire pour un même périmètre?";
+        document.getElementById("question2").textContent = "Q2 : Quelle est l'inégalité de Bernoulli?";
+        document.getElementById("question3").textContent = "Q3 : Quel est le premier mathématicien à faire usage du symbole '>'";
+        document.getElementById("question4").textContent = "Q4 : Quel indice permet de mesurer les inégalités de richesse d'une population?";
+        document.getElementById("question5").textContent = "Q5 : Combien de personnes dans le monde n'ont pas assez à manger chaque jour?";
+		document.getElementById("rep1").textContent = "Le carré";
+		document.getElementById("rep2").textContent = "Le cercle";
+		document.getElementById("rep3").textContent = "Le prisme";
+		document.getElementById("rep4").textContent = "Pour tout x≥−1 et n entier naturel, (1+x)n≥1+nx";
+		document.getElementById("rep5").textContent = "Pour tout x=−1 et n entier naturel, (1+x)n=1+nx";
+		document.getElementById("rep6").textContent = "1+1=1";
+		document.getElementById("rep7").textContent = "Pythagore";
+		document.getElementById("rep8").textContent = "Thomas Harriot";
+		document.getElementById("rep9").textContent = "Erwin Schrödinger";
+		document.getElementById("rep10").textContent = "L'indice de Dice";
+		document.getElementById("rep11").textContent = "L'indice de Simpson";
+		document.getElementById("rep12").textContent = "L'indice de Gini";
+		document.getElementById("rep13").textContent = "57,3";
+		document.getElementById("rep14").textContent = "12 x 10^45";
+		document.getElementById("rep15").textContent = "783 millions";
         document.getElementById("finish").textContent = "Finir";
         document.getElementById("restart").textContent = "Recommencer";
     }
