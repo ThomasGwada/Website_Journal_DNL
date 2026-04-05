@@ -1,3 +1,1 @@
-# Website_Journal_DNL
-
-# A journal about math
+<script>window.location.replace('./index.html')</script>
