@@ -1,14 +1,6 @@
 const jsonFR = {
-  "sommaire1": "Sommaire 1G3 :",
-  "article3_1": "Article 1",
-  "article3_2": "Article 2",
-  "article3_3": "Article 3",
 }
 const jsonEN = {
-  "sommaire1": "1G3's Table of content :",
-  "article3_1": "Article 1 (english)",
-  "article3_2": "Article 2 (english)",
-  "article3_3": "Article 3 (english)",
 }
 let selector = document.getElementById("language")
 
